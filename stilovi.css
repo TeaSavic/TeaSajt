@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #a9a9a9;
+}
+
+.main_container {
+    position: relative;
+}
+
+
+/* Navigacija */
+
+.navbar {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    background-color:cadetblue;
+}
+
+.logo a {
+    font-family: "Allura", cursive;
+    font-size: 34px;
+    color: rgb(5, 57, 99);
+}
+
+.navbar .navbar_items ul {
+    display: flex;     
+}
+
+.navbar .navbar_items ul li {
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+.navbar .navbar_items ul li a {
+    color: #fff;
+    font-size: 22px;
+}
+
+.banner_image {
+    background: url(Hslika.jpg) no-repeat top center;
+    background-size: cover;
+    background-blend-mode: darken;
+    width: 100%;;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner_content {
+    text-align: center;
+    color: #fff;
+}
+
+.banner_content h1 {
+    text-transform: uppercase;
+    line-height: 38px;
+    margin-bottom: 15px;
+    word-spacing: 15px;
+    font-size: 100px;
+    font-family: 'Allura', cursive;
+    color: black;
+}
+
+.banner_content p {
+    margin-top: 100px;
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Josefin Sans';
+    letter-spacing: 5px;
+}
+
+.about,
+.hobbies,
+.contactus,
+.ourteam {
+    padding: 5% 10%;
+    text-align: center;
+}
+
+h1.title {
+    margin-bottom: 20px;
+    color: black; 
+    font-family: 'Allura', cursive;
+    font-size: 38px;
+    letter-spacing: 5px;
+}
+
+p.text {
+    color: black;
+    line-break: auto;
+    margin: 3% 20%;
+    font-size: 24px;
+    font-family: 'Josefin Sans';
+    line-height: 25px;
+}
+
+.btn a {
+    display: block;
+    width: 180px;
+    height: 35px;
+    border: 2px solid black;
+    line-height: 35px;
+    margin: 0 auto;
+    color: cadetblue;
+    text-align: center;
+}
+
+.hobbies {
+    background-color: cadetblue;
+}
+
+.diff_hobbies {
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-between;
+}
+
+.diff_hobbies_item {
+    width: 30%;
+}
+
+.diff_hobbies_item img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.diff_hobbies_item h2 {
+    color: black;
+    margin-bottom: 15px;
+    font-family: 'Allura', cursive;
+    letter-spacing: 3px;
+}
+
+.diff_hobbies_item p,
+.hobbies p {
+    color: black;
+}
+
+.form_input {
+    margin-bottom: 15px;
+}
+
+.form_input input[type="text"] {
+    width: 250px;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+}
+
+.form_input textarea {
+    width: 250px;
+    padding: 12px 20px;
+    height: 80px;
+    border: 1px solid #ccc;
+}
+
+
+.ourteam {
+    background: cadetblue;
+}
+
+.ourteam_wrapper .team {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ourteam_wrapper .team-1 {
+    margin-bottom: 25px;
+}
+
+.ourteam_wrapper .team_member {
+    width: 30%;
+    height: auto;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.ourteam_wrapper .team_member img {
+    width: 100%;
+    display: block;
+    height: auto;
+    transition: all 0.5s ease;
+}
+
+.ourteam_wrapper .team_member:hover img {
+    transform: scale(1.1);
+}
+
+
+.footer {
+    background-color:#fff;
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:#737373;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .social-icons img {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;   
+    margin-bottom: 20px;
+}
+
+.footer .copyright-text,
+.footer .social-icons {
+    text-align: center;
+}
+
+.copyright-text {
+    margin-top: 20px;
+}
+
+
+    
+.footer a {
+  color:#737373;
+}
+
+.footer a:hover {
+  color: cadetblue;
+  text-decoration: none;
+}
+
+
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover {
+  color:cadetblue;
+  text-decoration: none;
+}
+
+.footer-links {
+    text-align: center;
+}
+
+.footer-links ul li {
+    display: inline-block;
+}
+
+
+.social-icons a {
+    color:#818a91;
+    font-size:16px;
+    line-height: 10 px;
+    width: 10 px;
+    height: 10 px;
+    text-align: center;
+    margin-right:8px;
+    border-radius:100%;
+}
+
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover {
+    color:#fff;
+    background-color: cadetblue;
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .navbar {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .navbar.items ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        margin: 25px 0;
+    }
+
+    .banner_content {
+        margin-top: 10px;
+    }
+}
